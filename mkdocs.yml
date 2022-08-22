@@ -3,15 +3,15 @@ repo_name: 'itmo-ict-faculty'
 repo_url: 'https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies'
 theme:
   name: material
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+  # palette:
+  #   - scheme: default
+  #     toggle:
+  #       icon: material/weather-sunny
+  #       name: Switch to dark mode
+  #   - scheme: slate
+  #     toggle:
+  #       icon: material/weather-night
+  #       name: Switch to light mode
 #  logo: assets/logo.png
   icon:
     repo: fontawesome/brands/github
@@ -25,10 +25,10 @@ theme:
 plugins:
   - search
 nav:
-  - Introduction: "introduction.md"
+  - Introduction: "index.md"
   - Education:
     - Courses: "education/courses.md"
     - Labs: "education/labs.md"
     - Lecture: "education/lecture.md"
-  # - Student case: 
-  #   - ITMO 2022/2023: "student_case/itmo2022_2023/itmo2022_2023.md"
+  - Student case: 
+    - ITMO 2022/2023: "student_case/itmo2022_2023/itmo2022_2023.md"
