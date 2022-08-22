@@ -1,6 +1,7 @@
 # introduction-to-distributed-technologies
 Course Introduction to distributed technologies by FICT ITMO
-For local deploy in docker container
+
+Command for local deploy in docker container
 ```
 git clone https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies
 cd introduction-to-distributed-technologies
