@@ -1,6 +1,7 @@
 site_name: Introduction-to-distributed-technologies
 repo_name: 'itmo-ict-faculty'
 repo_url: 'https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies'
+docs_dir: docs/
 theme:
   name: material
   palette:
