@@ -6,30 +6,12 @@ on:
       - main
 
 jobs:
-  build-deploy:
-    name: Build and deploy docs
-
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout 
-        uses: actions/checkout@v2
-
-      - name: Set up Python 3 
-        uses: actions/setup-python@v2
-
-      - name: Cache dependencies 
-        uses: actions/cache@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('docs/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-            ${{ runner.os }}-
-      - name: Install dependencies
-        working-directory: docs
-        run: make install
-
-      - name: Build and deploy to GitHub Pages 
-        working-directory: docs
-        run: make deploy
+          python-version: 3.x
+      - run: pip install mkdocs-material
+      - run: mkdocs gh-deploy --force
