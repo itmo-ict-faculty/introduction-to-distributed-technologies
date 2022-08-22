@@ -3,7 +3,7 @@ repo_name: 'itmo-ict-faculty'
 repo_url: 'https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies'
 docs_dir: docs/
 theme:
-  name: material
+  name: 'material'
 #   palette:
 #     - scheme: default
 #       toggle:
@@ -23,8 +23,8 @@ theme:
 # #    - navigation.tabs.sticky
 #     - toc.follow
 #     - navigation.top
-plugins:
-  - search
+# plugins:
+#   - search
 nav:
   - Introduction: "introduction.md"
   - Education:
