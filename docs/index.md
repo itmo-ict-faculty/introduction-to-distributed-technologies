@@ -16,10 +16,10 @@
 
 Более подробно можно узнать в следующих разделах:
 
-- [Учебные курсы](../docs/education/courses.md)
-- [Лабораторные работы](../docs/education/labs.md)
-- [Лекции](../docs/education/lecture)
-- [Дополнительные материалы](../docs/education/additional_materials)
+- [Учебные курсы](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/education/courses)
+- [Лабораторные работы](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/education/labs.md)
+- [Лекции](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/education/lecture)
+- [Дополнительные материалы](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/education/additional_materials)
 
 ## Методы оценивания
 - Для получения оценки 3 необходимо выполнить не менее 60% заданий во всех курсах. Среднее значение должно быть между 60 и 75 процентами. 
