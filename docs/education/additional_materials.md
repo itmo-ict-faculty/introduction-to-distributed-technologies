@@ -1,4 +1,5 @@
 ## Дополнительные материалы по желанию
+### Блокчейн
 1. Коллекция статей о блокчейне от команды Ethereum [Cсылка](https://ethereum.org/en/learn/)
 2. Лекция на TED ([It's time to build our own internet | André Staltz | TEDxGeneva | TED Talk](http://ted.com/talks/andre_staltz_it_s_time_to_build_our_own_internet?language=en))
 3. Курс “Распределенные технологии” от ВШЭ ([Курс «Распределенные системы». Лекция 1 (Олег Сухорослов)](https://www.youtube.com/watch?v=RGIf5vMoIm4&list=PLEqoHzpnmTfAW2gYw2R80EmGDwWqUR9mD))
@@ -8,6 +9,10 @@
 7. Статья про связь эллиптических кривых и блокчейна [Ссылка](https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/)
 8. Гитхаб репозиторий “taproot-workshop” с файлами для Google Collab [Ссылка](https://github.com/bitcoinops/taproot-workshop/tree/Colab)
 9. Репозиторий с основными демонстрациями простейших алгоритмов шифрования [Ссылка](https://github.com/serengil/crypto/tree/master/python/classical)
+
+### Kubernetes и minikube
+1. [Github Minikube](https://github.com/kubernetes/minikube)
+2. [Wiki quickstart Minikube](https://minikube.sigs.k8s.io/docs/start/)
 
 
 ## Литература
