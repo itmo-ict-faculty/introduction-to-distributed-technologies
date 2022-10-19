@@ -53,7 +53,7 @@
 #### Пререквизиты
 **Трудозатраты:** Трудозатраты +- 6 часов (Самостоятельная работа)
 
-**Ссылки на полезные материалы:** Можно оттолкнуться от этих источников 
+**Ссылки на полезные материалы:** Можно оттолкнуться от этих источников:    
 [Introduction and Issues in distributed system](https://ds.cs.luc.edu/issues/issues.html)    
 [Open Issues and Security Challenges of Data Communication Channels in Distributed Internet of Things (IoT): A Survey](https://www.researchgate.net/publication/322814035_Open_Issues_and_Security_Challenges_of_Data_Communication_Channels_in_Distributed_Internet_of_Things_IoT_A_Survey)   
 [Distributed Systems Security Knowledge Area](https://www.cybok.org/media/downloads/Distributed_Systems_Security_issue_1.0.pdf)   
