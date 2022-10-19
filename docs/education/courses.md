@@ -53,6 +53,14 @@
 #### Пререквизиты
 **Трудозатраты:** Трудозатраты +- 6 часов (Самостоятельная работа)
 
+Глубину статьи вы оцениваете самостоятельно, но к самой статье есть несколько требований:
+
+1. НИКАКОЙ РЕКЛАМЫ ТОКЕНОВ/ТЕХНОЛОГИЙ
+2. В случае если вы делаете обзор технологии/токена, вам необходимо привнести свою аналитику данной технологии/токена с технической/математической точки зрения.
+3. Постарайтесь красиво/качественно оформить свою статью, чтобы ее было приятно читать как вам, так и случайным посетителям ресурса на который вы выкладываете свою статью. 
+
+**Все авторы статьи должны быть указанны в ней на момент публикации.**
+
 **Ссылки на полезные материалы для подбора тем:**    
 [Introduction and Issues in distributed system](https://ds.cs.luc.edu/issues/issues.html)    
 [Open Issues and Security Challenges of Data Communication Channels in Distributed Internet of Things (IoT): A Survey](https://www.researchgate.net/publication/322814035_Open_Issues_and_Security_Challenges_of_Data_Communication_Channels_in_Distributed_Internet_of_Things_IoT_A_Survey)   
@@ -61,6 +69,8 @@
 [PhD research topic in parallel and distributed systems](https://phdprojects.org/phd-research-topic-parallel-distributed-systems/)   
 [Research at Web3 Foundation](https://research.web3.foundation/en/latest/index.html)   
 [Ethereum research backlog](https://notes.ethereum.org/@ethsg/rkxpeG0ff?type=view)   
+
+**Ссылки на полезные материалы:** [Материалы прошлых лет](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/student_case/itmo2022_2023/itmo2022_2023/)
 
 #### Метод оценивания
 В ходе оценки статьи будут оцениваться следующие параметры:
