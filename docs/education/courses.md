@@ -54,13 +54,13 @@
 **Трудозатраты:** Трудозатраты +- 6 часов (Самостоятельная работа)
 
 **Ссылки на полезные материалы:** Можно оттолкнуться от этих источников 
-[Introduction and Issues in distributed system](https://ds.cs.luc.edu/issues/issues.html)
-[Open Issues and Security Challenges of Data Communication Channels in Distributed Internet of Things (IoT): A Survey](https://www.researchgate.net/publication/322814035_Open_Issues_and_Security_Challenges_of_Data_Communication_Channels_in_Distributed_Internet_of_Things_IoT_A_Survey)
-[Distributed Systems Security Knowledge Area](https://www.cybok.org/media/downloads/Distributed_Systems_Security_issue_1.0.pdf)
-[Google research for Distributed Systems and Parallel Computing](https://research.google/research-areas/distributed-systems-and-parallel-computing/)
-[PhD research topic in parallel and distributed systems](https://phdprojects.org/phd-research-topic-parallel-distributed-systems/)
-[Research at Web3 Foundation](https://research.web3.foundation/en/latest/index.html)
-[Ethereum research backlog](https://notes.ethereum.org/@ethsg/rkxpeG0ff?type=view)
+[Introduction and Issues in distributed system](https://ds.cs.luc.edu/issues/issues.html)    
+[Open Issues and Security Challenges of Data Communication Channels in Distributed Internet of Things (IoT): A Survey](https://www.researchgate.net/publication/322814035_Open_Issues_and_Security_Challenges_of_Data_Communication_Channels_in_Distributed_Internet_of_Things_IoT_A_Survey)   
+[Distributed Systems Security Knowledge Area](https://www.cybok.org/media/downloads/Distributed_Systems_Security_issue_1.0.pdf)   
+[Google research for Distributed Systems and Parallel Computing](https://research.google/research-areas/distributed-systems-and-parallel-computing/)   
+[PhD research topic in parallel and distributed systems](https://phdprojects.org/phd-research-topic-parallel-distributed-systems/)   
+[Research at Web3 Foundation](https://research.web3.foundation/en/latest/index.html)   
+[Ethereum research backlog](https://notes.ethereum.org/@ethsg/rkxpeG0ff?type=view)   
 
 #### Метод оценивания
 В ходе оценки статьи будут оцениваться следующие параметры:
