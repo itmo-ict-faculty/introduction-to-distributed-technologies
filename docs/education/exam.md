@@ -37,6 +37,7 @@
 1. Стек блокчейн-технологий. Уровневая модель стека.
 
 [Статья на Springer](https://link.springer.com/chapter/10.1007/978-981-13-8775-3_8)
+
 [Статья на Cehv](https://cehv.com/cehvs-blockchain-osi-model-thesis/)
 
 ---
@@ -44,6 +45,7 @@
 2. Основные недостатки блокчейн-сетей на примерах различных платформ
 
 [Cтатья на ieee](https://ieeexplore.ieee.org/abstract/document/8592253)
+
 [Статья на polkadot.network](https://polkadot.network/PolkaDotPaper.pdf)
 
 ---
@@ -51,7 +53,9 @@
 3. Распространенные типы уязвимостей и атак на блокчейн-сети.
 
 [Cтатья на ieee](https://ieeexplore.ieee.org/abstract/document/9323061)
+
 [Статья на Springer](https://link.springer.com/chapter/10.1007/978-981-15-1518-7_5)
+
 [Статья на sciencedirect](https://www.sciencedirect.com/science/article/pii/S0167404818310927)
 
 ---
@@ -59,6 +63,7 @@
 4. Понятие хардфорка, его причины и последствия. Примеры хардфорков в различных сетях.
 
 [Техническая статья](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4243070)
+
 [Техническая статья](https://arxiv.org/abs/2102.10006)
 
 ---
@@ -66,6 +71,7 @@
 5. Экосистема Polkadot и ее архитектура. Типы и роли узлов в экосистеме.
 
 [Github w3f](https://github.com/w3f/research/blob/master/docs/papers/OverviewPaper-V1.pdf)
+
 [Cтатья на ieee](https://ieeexplore.ieee.org/abstract/document/9881859)
 
 ---
@@ -73,7 +79,9 @@
 6. Принцип shared security и его применение в блокчейн-сетях.
 
 [Cтатья на ieee](https://ieeexplore.ieee.org/abstract/document/9881859)
+
 [Статья на polkadot.network](https://wiki.polkadot.network/docs/learn-security)
+
 [Техническая статья](https://dl.acm.org/doi/abs/10.1145/3530019.3531345)
 
 ---
@@ -81,7 +89,9 @@
 7. Механизм стейкинга токенов в различных сетях.
 
 [Cтатья на ieee](https://ieeexplore.ieee.org/abstract/document/8123011)
+
 [Техническая статья](https://www.mdpi.com/2227-7390/8/10/1782)
+
 [Техническая статья](https://ijic.utm.my/index.php/ijic/article/view/272)
 
 ---
@@ -89,6 +99,67 @@
 8. Виды on-chain управления блокчейн-сетями.
 
 [Техническая статья](https://hal.archives-ouvertes.fr/hal-02046787/document)
+
 [Статья на polkadot.network](https://wiki.polkadot.network/docs/learn-governance)
+
+---
+
+9. Блокчейн. Его основные характеристики.
+
+---
+
+10. Алгоритмы консенсуса. PoW, PoS, DPoS и прочие.
+
+---
+
+11. Сложность сети, размер блока, очередь транзакций.
+
+---
+
+12. Проблема двойной траты, параметры транзакции, пропускная способность сети.
+
+---
+
+13. EVM, smart contracts.
+
+---
+
+14. Полнота по Тьюрингу EVM, прерывания EVM.
+
+---
+
+15. Параметры ERC20, примеры программного кода.
+
+---
+
+16. Параметры ERC721, ERC1155, примеры программного кода.
+
+---
+
+17. Основные проблемы блокчейн на примере различных платформ.
+
+---
+
+18. Проблемы двойной траты, атака 50% и другие уязвимости.
+
+---
+
+19. Хардфорк и примеры хардфорков в различных сетях.
+
+---
+
+20. Polkadot и его архитектура. Узлы сети.
+
+---
+
+21. Shared security
+
+---
+
+22. Стейкинг на различных платформах.
+
+---
+
+23. Governance
 
 ---
