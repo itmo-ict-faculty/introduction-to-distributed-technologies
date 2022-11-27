@@ -31,5 +31,6 @@ nav:
     - Labs: "education/labs.md"
     - Lecture: "education/lecture.md"
     - Additional materials: "education/additional_materials.md"
+    - Exam: "education/exam.md"
   - Student case: 
     - ITMO 2022/2023: "student_case/itmo2022_2023/itmo2022_2023.md"
