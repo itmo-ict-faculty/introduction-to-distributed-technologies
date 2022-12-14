@@ -106,60 +106,52 @@
 
 - Блокчейн. Его основные характеристики.
 
+[Про основные характористики](https://medium.com/@teamz/why-use-blockchain-a-case-of-transparency-immutability-and-security-ab60a688ddb1)
+
 ---
 
 - Алгоритмы консенсуса. PoW, PoS, DPoS и прочие.
+- 
+[Перечисление основных алгоритмов консенсуса](https://media.sigen.pro/guides/1526)
 
 ---
 
 - Сложность сети, размер блока, очередь транзакций.
 
+[Блок и его содержимое](https://ethereum.org/ru/developers/docs/blocks/)
+
+[Сложность сети](https://forklog.com/cryptorium/chto-takoe-heshrejt-i-slozhnost-majninga-kriptovalyut)
+
+[Подробно про мемпул](https://www.blocknative.com/blog/mempool-intro)
+
 ---
 
 - Проблема двойной траты, параметры транзакции, пропускная способность сети.
+
+[Double spending](https://academy.binance.com/ru/articles/double-spending-explained)
+
+[Пропускная способность](https://crypto.com/university/blockchain-scalability)
 
 ---
 
 - EVM, smart contracts.
 
+[Документация Ethereum](https://ethereum.org/en/developers/docs/evm/)
+
 ---
 
 - Полнота по Тьюрингу EVM, прерывания EVM.
+
+[Документация Ethereum](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)
 
 ---
 
 - Параметры ERC20, примеры программного кода.
 
+[Документация OpenZeppelin](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20)
+
 ---
 
 - Параметры ERC721, ERC1155, примеры программного кода.
 
----
-
-- Основные проблемы блокчейн на примере различных платформ.
-
----
-
-- Проблемы двойной траты, атака 50% и другие уязвимости.
-
----
-
-- Хардфорк и примеры хардфорков в различных сетях.
-
----
-
-- Polkadot и его архитектура. Узлы сети.
-
----
-
-- Shared security
-
----
-
-- Стейкинг на различных платформах.
-
----
-
-- Governance
-
----
+[Документация OpenZeppelin](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721)
