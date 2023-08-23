@@ -18,8 +18,8 @@
 ## План обучения
 **Успешное прохождение учебной программы подразумевает выполнение следующих заданий:**
 
-1. Крипта: от теории к практике ([https://m.online.itmo.ru](https://m.online.itmo.ru)) **(Трудозатраты +- 8 часов (Практические занятия))**
-2. Онлайн-школа Робономики, вводный курс ([Introduction Course FreeSelf-paced5 Theoretical & practical tasks](https://robonomics.academy/online-courses/introduction-course)) **(Трудозатраты 3-3.5 часа (Практические занятия))**
+1. Крипта: от теории к практике ([https://m.online.itmo.ru](https://m.online.itmo.ru)) **(Трудозатраты +- 16 часов (Практические занятия))**
+2. Kusama - From Theory to Practice ([Introduction Course FreeSelf-paced5 Theoretical & practical tasks](https://robonomics.academy/online-courses/introduction-course)) **(Трудозатраты 16 часов (Практические занятия))**
 3. Курс лекций по современным микросервисным приложениям **(Трудозатраты 6 часов (Лекционные занятия))** + онлайн лекционный курс на eDEX по Kubernetes ([https://www.edx.org/course/introduction-to-kubernetes](https://www.edx.org/course/introduction-to-kubernetes)) + 4 лабораторные работы по теме лекций **(Трудозатраты +- 20 часов (Практические занятия))**
 4. Разработка и размещение технической статьи на Medium или Habr по одной из исследованных ранее тем. **(Трудозатраты +- 6 часов (Самостоятельная работа))**
 
