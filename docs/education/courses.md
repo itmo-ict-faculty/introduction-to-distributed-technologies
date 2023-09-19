@@ -10,7 +10,7 @@
 
 #### Инструкция:
 
-**1. Ссылка на вход**: [Авторизация] (https://online.itmo.ru/members/login)
+**1. Ссылка на вход**: [Авторизация](https://online.itmo.ru/members/login)
 
 **2. Ссылка для регистрации в группу (DPO-15-STUD-23)**: [обычная регистрация по электронной почте](https://online.itmo.ru/members/signup/group/z3ftdtzjclzys3n-dpo15stud23)  
 
