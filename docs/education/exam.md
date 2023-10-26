@@ -155,3 +155,163 @@
 - Параметры ERC721, ERC1155, примеры программного кода.
 
 [Документация OpenZeppelin](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721)
+
+------
+
+## List of Exam Questions for the "Introduction to Distributed Technologies 2023/2024" Course
+
+### Virtualization and Containerization.
+
+- What is virtualization? What are the types of virtualization, and how does virtualization differ from containerization, if at all?
+
+---
+
+- What is Docker, Rkt, and Containerd? Explain how containerization works in one of the selected systems of your choice, including networking and other relevant details.
+
+---
+
+- What is Kubernetes? Explain its architecture, the functioning of its core services, and the methods used to deploy containers.
+
+---
+
+- What are Pods and Deployments? Explain the key concepts and provide manifest examples for each type of resource.
+
+---
+
+- What are Services and Ingress? Explain the key concepts and provide manifest examples for each type of resource.
+  
+---
+
+- What are ConfigMaps and Secrets? Explain the key concepts and provide manifest examples for each type of resource.
+
+---
+
+- How do Container Network Interfaces (CNI) work? What are the different types of CNIs, and what are the deployment and operational peculiarities?
+---
+
+- What is etcd, and why is it necessary? How can you update Kubernetes?
+
+### Blockchain Technologies
+
+- Blockchain technology stack. Layered model of the stack.
+
+[Springer Article](https://link.springer.com/chapter/10.1007/978-981-13-8775-3_8)
+
+[Cehv Article](https://cehv.com/cehvs-blockchain-osi-model-thesis/)
+
+---
+
+- Key disadvantages of blockchain networks using examples from various platforms.
+
+[IEEE Article](https://ieeexplore.ieee.org/abstract/document/8592253)
+
+[Polkadot.network Article](https://polkadot.network/PolkaDotPaper.pdf)
+
+---
+
+- Common types of vulnerabilities and attacks on blockchain networks.
+
+[IEEE Article](https://ieeexplore.ieee.org/abstract/document/9323061)
+
+[Springer Article](https://link.springer.com/chapter/10.1007/978-981-15-1518-7_5)
+
+[ScienceDirect Article](https://www.sciencedirect.com/science/article/pii/S0167404818310927)
+
+---
+
+- Concept of hard fork, its reasons, and consequences. Examples of hard forks in different networks.
+  
+[Technical Article](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4243070)
+
+[Technical Article](https://arxiv.org/abs/2102.10006)
+
+---
+
+- Polkadot ecosystem and its architecture. Types and roles of nodes in the ecosystem.
+
+[Github w3f](https://github.com/w3f/research/blob/master/docs/papers/OverviewPaper-V1.pdf)
+
+[IEEE Article](https://ieeexplore.ieee.org/abstract/document/9881859)
+
+---
+
+- Shared security principle and its application in blockchain networks.
+
+[IEEE Article](https://ieeexplore.ieee.org/abstract/document/9881859)
+
+[Polkadot.network Article](https://wiki.polkadot.network/docs/learn-security)
+
+[Тechnical Article](https://dl.acm.org/doi/abs/10.1145/3530019.3531345)
+
+---
+
+- Token staking mechanisms in various networks.
+  
+[IEEE Article](https://ieeexplore.ieee.org/abstract/document/8123011)
+
+[Technical Article](https://www.mdpi.com/2227-7390/8/10/1782)
+
+[Technical Article](https://ijic.utm.my/index.php/ijic/article/view/272)
+
+---
+
+- Types of on-chain governance in blockchain networks.
+
+[Technical Article](https://hal.archives-ouvertes.fr/hal-02046787/document)
+
+[Polkadot.network Article](https://wiki.polkadot.network/docs/learn-governance)
+
+---
+
+- Blockchain: Its key characteristics.
+
+[About Key Characteristics](https://medium.com/@teamz/why-use-blockchain-a-case-of-transparency-immutability-and-security-ab60a688ddb1)
+
+---
+
+- Consensus algorithms: PoW, PoS, DPoS, and others.
+  
+[List of Main Consensus Algorithms](https://media.sigen.pro/guides/1526)
+
+---
+
+- Network difficulty, block size, transaction queue.
+
+[Block and Its Contents](https://ethereum.org/ru/developers/docs/blocks/)
+
+[Network Difficulty](https://forklog.com/cryptorium/chto-takoe-heshrejt-i-slozhnost-majninga-kriptovalyut)
+
+[About Mempool in Detail](https://www.blocknative.com/blog/mempool-intro)
+
+---
+
+- Double spending problem, transaction parameters, network throughput.
+
+[Double spending](https://academy.binance.com/ru/articles/double-spending-explained)
+
+[Network Throughput](https://crypto.com/university/blockchain-scalability)
+
+---
+
+- EVM, smart contracts.
+
+[Ethereum Documentation](https://ethereum.org/en/developers/docs/evm/)
+
+---
+
+- Turing completeness of EVM, EVM interrupts.
+  
+[Ethereum Documentation](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)
+
+---
+
+- Parameters of ERC20 tokens, with code examples.
+
+[OpenZeppelin Documentation](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20)
+
+---
+
+- Parameters of ERC721 and ERC1155 tokens, with code examples.
+
+[OpenZeppelin Documentation](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721)
+
