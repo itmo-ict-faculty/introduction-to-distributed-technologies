@@ -76,3 +76,85 @@ minikube stop
 - Схема организации контейеров и сервисов нарисованная вами в [draw.io](https://app.diagrams.net) или Visio.
 
 - Ответы на вопросы (по возможности), скриншоты c результатами работы.
+
+
+------
+
+
+## Laboratory Work No. 1 "Installing Docker and Minikube, My First Manifest"
+### Description
+This is the first laboratory work in which you will test Docker, install Minikube, and deploy your first "pod."
+
+### Objectives
+To get acquainted with Minikube and Docker tools, and deploy your first "pod."
+
+### Report Formatting Rules
+You can learn the rules for formatting the report for the laboratory work by following this [link](../reportdesign.md)
+
+### Procedure
+It is recommended to start this laboratory work by studying the [Minikube Documentation.](https://minikube.sigs.k8s.io/docs/) This article will help you gain an initial understanding of the Minikube tool.
+
+Before starting the laboratory work, you need to complete the following tasks:
+
+> You can perform this work on a device with x86/arm64/ARMv7 architecture. [Original instructions,](https://minikube.sigs.k8s.io/docs/start/)
+
+- Install Docker on your computer.
+
+- Install Minikube using the [original instructions.](https://minikube.sigs.k8s.io/docs/start/)
+  
+- After installation, you need to deploy a Minikube cluster:
+  
+```bash
+minikube start
+```
+
+- Once the Minikube cluster is started, you can interact with k8s using the following command:
+  
+```bash
+minikube kubectl
+```
+
+> You need to use minikube `kubectl` if `kubectl` was not already installed on your system (the installation instructions for Minikube do not include it). `kubectl` is a tool for managing regular Kubernetes clusters and is installed separately. For convenience, you can create an alias like alias kubectl="minikube kubectl --" or a similar one, but it's not mandatory.
+
+- For the first manifest, we have chosen the HashiCorp Vault image. You can learn more about it [here.](https://www.vaultproject.io) You will need to write a manifest to deploy a HashiCorp Vault "pod" and expose port **8200** inside it.
+
+> IMPORTANT! You do not need to build the container yourself; you can find it [here.](https://hub.docker.com/_/vault/)
+
+- After that, you will need to create a service to access this container. The simplest way to do it is by executing the following command:
+  
+> This command will work only if your "pod" has the name "vault".
+
+```bash
+minikube kubectl -- expose pod vault --type=NodePort --port=8200
+```
+
+- The command above will create a service, but how do you access your container? Use the following command:
+
+```bash
+minikube kubectl -- port-forward service/vault 8200:8200
+```
+
+- Minikube will forward the port from your computer to the container, and you will be able to access Vault at [http://localhost:8200](http://localhost:8200)
+
+- After opening the link, you will see an interface like the one below:
+
+![vault](picture1.png)
+
+- To successfully complete the laboratory work, you need to enter your Vault using a token that you need to FIND, not generate.
+
+- Now, a couple of questions: 1. What just happened, and what did the commands mentioned earlier do? 2. Where can you find the token to log into Vault? (**Hint: Logs hold the answers**).
+
+- To stop the Minikube cluster, you can use the following command:
+  
+```bash
+minikube stop
+```
+
+### Laboratory Work Results
+As a result of this work, you should have:
+
+- A file with the manifest you developed to deploy a "pod" with the `.yaml` extension.
+
+- A diagram of the organization of containers and services drawn by you in [draw.io](https://app.diagrams.net) or Visio.
+
+- Answers to questions (if possible), screenshots with the results of the work.
