@@ -104,3 +104,104 @@
 
 #### Сроки выполнения
 Вам необходимо приложить ссылку на статью не позднее чем за две недели до окончания учебной дисциплины. 
+
+------
+
+## Course Descriptions
+
+### Crypto: From Theory to Practice
+
+![crypto](media/crypto.png)
+
+#### Description
+The course "Crypto: From Theory to Practice" will immerse you in the history of blockchain, explain what cryptocurrencies are, how mining works, and much more. It's an interesting course with a practical focus that allows you to familiarize yourself with the basics of cryptocurrencies, create your own crypto wallet, and more.
+
+#### Prerequisites
+**Course Link:** [https://m.online.itmo.ru](https://m.online.itmo.ru)
+
+**Workload:** Approximately 16 hours (Practical sessions)
+
+#### Assessment Method
+You need to read/listen to all lectures and complete all practical exercises and the final assignment. The results of your work must be uploaded to a table. Your grade will be based on the percentage of completed assignments and lectures. 
+**Grades may vary from 0 to 100%.**
+
+#### Deadline
+You have no more than 4 weeks from the start of the course to complete this task.
+
+### Kusama - From Theory to Practice
+
+![kusama](media/kusama.png)
+
+#### Description
+The course "Kusama - From Theory to Practice" will introduce you to the Kusama and robonomics.network blockchain networks created by ITMO University graduates. It will explain the use of distributed ledger technology in managing and storing data from IoT devices, robots, and more. In addition, the course has a continuation on working with Boston Dynamics' Spot robot in real-time.
+
+#### Prerequisites
+**Course Link:** [Kusama — From Theory to Practice Course](https://kap2fox.github.io/kusama.practice/en/learn/kusama-theory-practice/overview/)
+
+**Workload:** Approximately 16 hours (Practical sessions)
+
+#### Assessment Method
+You need to read all lectures and complete all practical exercises. After completing all tasks, you need to request an IPFS certificate of course completion. The course is considered complete only if you receive the IPFS certificate.
+
+#### Deadline
+You have no more than 4 weeks from the completion of the previous task to complete this assignment.
+
+### Online Lecture Course on Kubernetes via edX
+
+![edex](media/edex.png)
+
+#### Description
+The online lecture course on Kubernetes via edX is a reference course, and there is no need to pay for it. Additionally, there will be lectures in Russian that will clarify and expand on some aspects of this course. There will be four laboratory assignments related to the online and offline lectures to test your knowledge.
+
+#### Prerequisites
+**Course Link:** [Introduction to kubernetes](https://www.edx.org/course/introduction-to-kubernetes)
+
+**Workload:** Approximately 20 hours (Practical sessions)
+
+#### Assessment Method
+You need to read/listen to all lectures and complete all laboratory assignments. The results of your work must be uploaded to a table. The format of the laboratory work defense will be provided separately. 
+Grades may vary from 0 to 100%.
+
+#### Deadline
+You have no more than 6 weeks from the completion of the previous task to complete this assignment.
+
+### Writing a Technical Article on Medium or Habr
+#### Description
+This is the most interesting assignment of all. You will need to develop and publish a technical article on Medium or Habr on any of the topics that interest you from the course.
+
+**All authors of the article must be mentioned in it at the time of publication.**
+
+#### Prerequisites
+
+**Workload:** Approximately 6 hours (Self-study)
+
+You evaluate the depth of the article on your own, but there are several requirements for the article:
+
+1. NO TOKEN/TECHNOLOGY ADVERTISING
+2. If you are reviewing a technology/token, you need to provide your analysis of this technology/token from a technical/mathematical point of view.
+3. Try to format your article beautifully and professionally so that it is enjoyable to read for both you and random visitors to the resource where you publish your article.
+4. Medium Article Requirement: The article should take at least 6 minutes to read per person, as assessed by Medium itself.
+5. Habr Article Requirement: It should have more pros than cons.
+
+**Useful Materials for Topic Selection:**    
+- [Introduction and Issues in distributed system](https://ds.cs.luc.edu/issues/issues.html)    
+- [Open Issues and Security Challenges of Data Communication Channels in Distributed Internet of Things (IoT): A Survey](https://www.researchgate.net/publication/322814035_Open_Issues_and_Security_Challenges_of_Data_Communication_Channels_in_Distributed_Internet_of_Things_IoT_A_Survey)   
+- [Distributed Systems Security Knowledge Area](https://www.cybok.org/media/downloads/Distributed_Systems_Security_issue_1.0.pdf)   
+- [Google research for Distributed Systems and Parallel Computing](https://research.google/research-areas/distributed-systems-and-parallel-computing/)   
+- [PhD research topic in parallel and distributed systems](https://phdprojects.org/phd-research-topic-parallel-distributed-systems/)   
+- [Research at Web3 Foundation](https://research.web3.foundation/en/latest/index.html)   
+- [Ethereum research backlog](https://notes.ethereum.org/@ethsg/rkxpeG0ff?type=view)   
+- [Materials from Previous Years](https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/student_case/itmo2022_2023/itmo2022_2023/)
+
+#### Assessment Method
+The following parameters will be evaluated during the assessment of the article:
+
+- Technical content and novelty of ideas
+- Article volume and the number of interesting sources/materials used
+- Ratings from article commentators and constructive criticism results.
+  
+**Grades may vary from 0 to 100%**
+
+#### Deadline
+You must provide a link to the article no later than two weeks before the end of the course.
+
