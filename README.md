@@ -46,3 +46,56 @@ cd introduction-to-distributed-technologies
 docker pull squidfunk/mkdocs-material
 docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
 ```
+
+
+------
+
+
+## Repository Description
+You are in the repository of the educational discipline "Introduction to Distributed Technologies" implemented by the instructors of the [Faculty of Information and Communication Technologies](https://fict.itmo.ru) at ITMO University. When developing the educational program, we aimed to take into account international experience in the field of distributed technologies and apply our own expertise in studying these technologies.
+
+> Teachers also learn, good teachers learn throughout their lives.
+
+Therefore, please approach this educational discipline responsibly, and we, in turn, will strive to provide you with the latest and most interesting technologies that will help you in your future career. Don't hesitate to ask questions and seek interesting solutions in your assignments, and we will do our best to assist you and answer all your questions within the scope of the educational discipline.
+
+Go for it!
+
+## Bug Discovery and Improvement Suggestions
+
+If you have found a bug in this documentation or would like to propose improvements, please open an [Issue or make a PR](https://docs.github.com/desktop/contributing-and-collaborating-using-github-desktop/creating-an-issue-or-pull-request).
+
+### Rules for Creating Issues
+
+When creating an Issue, please remember the following general rules:
+
+1. Make sure you are posting your inquiry in the correct repository.
+
+2. If you are reporting a bug, ensure that a similar Issue does not already exist.
+
+3. Provide a title and description as accurately as possible.
+
+4. It is preferable to include the following flags in the Issue title: [BUG], [PROPOSAL], [QUESTION].
+
+## Creating a PR
+
+This documentation can be modified through a [PR (Pull Request)](https://docs.github.com/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) by any community member. Please do not forget about the simple contribution rules.
+
+### Contribution Rules in Repositories
+
+1. If you would like to suggest minor changes, such as fixing typos or formatting, a PR is preferred.
+
+2. Clearly describe the issue and the solution you propose. If necessary, you can reference the Issue number.
+
+3. Before making formatting changes, ensure that it is indeed necessary.
+
+4. Please try to adhere to the prevailing code style and Markdown formatting.
+
+## Local Project Deployment
+### Project Deployment in a Docker Container
+
+```
+git clone https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies
+cd introduction-to-distributed-technologies
+docker pull squidfunk/mkdocs-material
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+```
