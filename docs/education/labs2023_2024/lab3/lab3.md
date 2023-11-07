@@ -36,3 +36,44 @@
 - Схема организации контейеров и сервисов нарисованная вами в [draw.io](https://app.diagrams.net) или Visio.
 
 - Скриншоты c результатами работы.
+
+------
+
+
+## Laboratory Work No. 3 "Certificates and Secrets in Minikube, Secure Data Storage"
+### Description
+In this laboratory work, you will become familiar with certificates and secrets in Minikube, as well as the rules for secure data storage in Minikube.
+
+### Objectives
+To get acquainted with certificates and secrets in Minikube and learn the rules for secure data storage in Minikube.. 
+
+### Report Formatting Rules
+You can learn the rules for formatting the report for the laboratory work by following this [link.](../reportdesign.md)
+
+
+### Procedure
+
+- You need to create a `configMap` with the variables: `REACT_APP_USERNAME`, `REACT_APP_COMPANY_NAME`.
+
+- You need to create a `replicaSet` with 2 replicas of the container [ifilyaninitmo/itdt-contained-frontend:master](https://hub.docker.com/repository/docker/ifilyaninitmo/itdt-contained-frontend) and pass the variables `REACT_APP_USERNAME`, `REACT_APP_COMPANY_NAME` using the previously created `configMap`.
+
+- Enable `minikube addons enable ingress` and generate a TLS certificate, then import the certificate into Minikube.
+
+- Create an ingress in Minikube, specifying the previously imported certificate, the FQDN you will use to access it, and the name of the service you created earlier.
+  
+>If you are doing this work on Windows/macOS, to access the ingress, you need to use the `minikube tunnel` command for the created ingress.
+> If you are doing this work on Windows/macOS, you need to add the IP address and your FQDN to the hosts file.
+
+- In the `hosts` file, add the FQDN and IP address of your ingress, and try to access it in your browser using the FQDN. 
+
+- Access the web application using your FQDN over HTTPS and check for the presence of the certificate.
+  
+> Typically, in the browser, you will see a small padlock icon next to the site's FQDN. Click on it and take a screenshot of the information.
+
+### Laboratory Work Results
+
+- Files with manifests developed by you with the .yaml extension.
+
+- A diagram of the organization of containers and services drawn by you in [draw.io](https://app.diagrams.net) or Visio.
+
+- Screenshots with the results of the work.

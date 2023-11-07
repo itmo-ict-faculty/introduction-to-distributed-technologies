@@ -31,3 +31,40 @@
 - Схема организации контейеров и сервисов нарисованная вами в [draw.io](https://app.diagrams.net) или Visio.
 
 - Скриншоты c результатами работы.
+
+
+------
+
+
+## Laboratory Work No. 2 "Deploying a Web Service in Minikube, Accessing the Web Interface of the Service, Monitoring the Service"
+### Description
+
+In this laboratory work, you will become familiar with deploying a full-fledged web service with multiple replicas.
+
+### Objectives
+
+To learn about the types of container deployment "controllers," become acquainted with network services, and deploy your own web application.
+
+### Report Formatting Rules
+
+You can learn the rules for formatting the report for the laboratory work by following this [link.](../reportdesign.md)
+
+
+### Procedure
+
+- You need to create a `deployment` with 2 replicas of the container ifilyaninitmo/itdt-contained-frontend:master and pass variables to these replicas: `REACT_APP_USERNAME`, `REACT_APP_COMPANY_NAME`.
+
+- Create a service through which you will have access to these "pods." The choice of service type is up to you.
+
+- Start the port forwarding mode in `minikube` and connect to your containers via a web browser.
+  
+- Check if the variables `REACT_APP_USERNAME`, `REACT_APP_COMPANY_NAME`, and `Container name` change on the web page. If yes, why?
+
+- Check the logs of the containers and include the logs in the report.
+
+### Laboratory Work Results
+- Files with manifests developed by you with the `.yaml` extension.
+
+- A diagram of the organization of containers and services drawn by you in [draw.io](https://app.diagrams.net) or Visio.
+
+- Screenshots with the results of the work.
