@@ -1,0 +1,1421 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../labs/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.8">
+    
+    
+      
+        <title>Courses - Introduction-to-distributed-technologies</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4b4a2bd9.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction-to-distributed-technologies" class="md-header__button md-logo" aria-label="Introduction-to-distributed-technologies" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction-to-distributed-technologies
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Courses
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    itmo-ict-faculty
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction-to-distributed-technologies" class="md-nav__button md-logo" aria-label="Introduction-to-distributed-technologies" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Introduction-to-distributed-technologies
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    itmo-ict-faculty
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Education
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Education
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Courses
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Courses
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Описание учебных курсов
+  </a>
+  
+    <nav class="md-nav" aria-label="Описание учебных курсов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Крипта: от теории к практике
+  </a>
+  
+    <nav class="md-nav" aria-label="Крипта: от теории к практике">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Пререквизиты
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Метод оценивания
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Сроки выполнения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kusama-from-theory-to-practice" class="md-nav__link">
+    Kusama - From Theory to Practice
+  </a>
+  
+    <nav class="md-nav" aria-label="Kusama - From Theory to Practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Пререквизиты
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    Метод оценивания
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    Сроки выполнения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edex-kubernetes" class="md-nav__link">
+    Онлайн лекционный курс на eDEX по Kubernetes
+  </a>
+  
+    <nav class="md-nav" aria-label="Онлайн лекционный курс на eDEX по Kubernetes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    Пререквизиты
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    Метод оценивания
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    Сроки выполнения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-habr" class="md-nav__link">
+    Написание технической статьи на Medium или Habr
+  </a>
+  
+    <nav class="md-nav" aria-label="Написание технической статьи на Medium или Habr">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    Пререквизиты
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    Метод оценивания
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    Сроки выполнения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-descriptions" class="md-nav__link">
+    Course Descriptions
+  </a>
+  
+    <nav class="md-nav" aria-label="Course Descriptions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crypto-from-theory-to-practice" class="md-nav__link">
+    Crypto: From Theory to Practice
+  </a>
+  
+    <nav class="md-nav" aria-label="Crypto: From Theory to Practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-method" class="md-nav__link">
+    Assessment Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadline" class="md-nav__link">
+    Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kusama-from-theory-to-practice_1" class="md-nav__link">
+    Kusama - From Theory to Practice
+  </a>
+  
+    <nav class="md-nav" aria-label="Kusama - From Theory to Practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_1" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites_1" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-method_1" class="md-nav__link">
+    Assessment Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadline_1" class="md-nav__link">
+    Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-lecture-course-on-kubernetes-via-edx" class="md-nav__link">
+    Online Lecture Course on Kubernetes via edX
+  </a>
+  
+    <nav class="md-nav" aria-label="Online Lecture Course on Kubernetes via edX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_2" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites_2" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-method_2" class="md-nav__link">
+    Assessment Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadline_2" class="md-nav__link">
+    Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-a-technical-article-on-medium-or-habr" class="md-nav__link">
+    Writing a Technical Article on Medium or Habr
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing a Technical Article on Medium or Habr">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_3" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites_3" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-method_3" class="md-nav__link">
+    Assessment Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadline_3" class="md-nav__link">
+    Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../labs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Labs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../additional_materials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Additional materials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exam/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Exam
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Student case
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Student case
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../student_case/itmo2022_2023/itmo2022_2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ITMO 2022/2023
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Описание учебных курсов
+  </a>
+  
+    <nav class="md-nav" aria-label="Описание учебных курсов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Крипта: от теории к практике
+  </a>
+  
+    <nav class="md-nav" aria-label="Крипта: от теории к практике">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Пререквизиты
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    Метод оценивания
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    Сроки выполнения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kusama-from-theory-to-practice" class="md-nav__link">
+    Kusama - From Theory to Practice
+  </a>
+  
+    <nav class="md-nav" aria-label="Kusama - From Theory to Practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    Пререквизиты
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    Метод оценивания
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    Сроки выполнения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edex-kubernetes" class="md-nav__link">
+    Онлайн лекционный курс на eDEX по Kubernetes
+  </a>
+  
+    <nav class="md-nav" aria-label="Онлайн лекционный курс на eDEX по Kubernetes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    Пререквизиты
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    Метод оценивания
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    Сроки выполнения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-habr" class="md-nav__link">
+    Написание технической статьи на Medium или Habr
+  </a>
+  
+    <nav class="md-nav" aria-label="Написание технической статьи на Medium или Habr">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    Описание
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    Пререквизиты
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    Метод оценивания
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    Сроки выполнения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-descriptions" class="md-nav__link">
+    Course Descriptions
+  </a>
+  
+    <nav class="md-nav" aria-label="Course Descriptions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crypto-from-theory-to-practice" class="md-nav__link">
+    Crypto: From Theory to Practice
+  </a>
+  
+    <nav class="md-nav" aria-label="Crypto: From Theory to Practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-method" class="md-nav__link">
+    Assessment Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadline" class="md-nav__link">
+    Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kusama-from-theory-to-practice_1" class="md-nav__link">
+    Kusama - From Theory to Practice
+  </a>
+  
+    <nav class="md-nav" aria-label="Kusama - From Theory to Practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_1" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites_1" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-method_1" class="md-nav__link">
+    Assessment Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadline_1" class="md-nav__link">
+    Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-lecture-course-on-kubernetes-via-edx" class="md-nav__link">
+    Online Lecture Course on Kubernetes via edX
+  </a>
+  
+    <nav class="md-nav" aria-label="Online Lecture Course on Kubernetes via edX">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_2" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites_2" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-method_2" class="md-nav__link">
+    Assessment Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadline_2" class="md-nav__link">
+    Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-a-technical-article-on-medium-or-habr" class="md-nav__link">
+    Writing a Technical Article on Medium or Habr
+  </a>
+  
+    <nav class="md-nav" aria-label="Writing a Technical Article on Medium or Habr">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description_3" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites_3" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-method_3" class="md-nav__link">
+    Assessment Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deadline_3" class="md-nav__link">
+    Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Courses</h1>
+
+<h2 id="_1">Описание учебных курсов</h2>
+<h3 id="_2">Крипта: от теории к практике</h3>
+<p><img alt="crypto" src="../media/crypto.png" /></p>
+<h4 id="_3">Описание</h4>
+<p>Учебный курс "Крипта: от теории к практике" погрузит вас в историю блокчейна, объяснит что представляют из себя криптовалюты, как устроен майнинг и многое другое.
+Достаточно интреесный курс с практическим уклоном, позволяющий вам познакомится с основами криптовалют, создать свой криптокошелек и многое другое.</p>
+<h4 id="_4">Пререквизиты</h4>
+<p>Инструкция:</p>
+<p><strong>1. Ссылка на вход</strong>: <a href="https://online.itmo.ru/members/login">Авторизация</a></p>
+<p><strong>2. Ссылка для регистрации в группу (DPO-15-STUD-23)</strong>: <a href="https://online.itmo.ru/members/signup/group/z3ftdtzjclzys3n-dpo15stud23">Обычная регистрация по электронной почте</a>  </p>
+<p><strong>3. Залогиниться и перейти на страницу курса:</strong> <a href="https://online.itmo.ru/members/courses/crypto">Страница курса</a></p>
+<p><strong>4. Можно начинать учиться и выполнять задания.</strong> 2 месяца для прохождения курса.</p>
+<p><strong>Трудозатраты:</strong> Трудозатраты +- 16 часов (Практические занятия)</p>
+<h4 id="_5">Метод оценивания</h4>
+<p>Вам необходимо прочитать/прослушать все лекции и выполнить все практики и финальное задание. Результаты работы необходимо выложить в таблицу. Данные о среднем проценте будут взяты на основе количества процентов выполненых заданий и изученных лекций.
+<strong>Оценка может варьироваться от 0 до 100%.</strong></p>
+<h4 id="_6">Сроки выполнения</h4>
+<p>У вас не больше 4-ух недель от старта занятий для выполнения данного задания. </p>
+<h3 id="kusama-from-theory-to-practice">Kusama - From Theory to Practice</h3>
+<p><img alt="kusama" src="../media/kusama.png" /></p>
+<h4 id="_7">Описание</h4>
+<p>Учебный курс "Kusama - From Theory to Practice" познакомит вас блокчейн сетями Kusama и robonomics.network созданной выпускниками ИТМО. Расскажет о использовании технологий распределенного реестра в задачах управления и хранения данных от IoT устройств, роботов и многого другого. Помимо этого у курса есть продолжение по роботу Spot от Boston Dynamics, с управлением роботом Spot в реальном времени.</p>
+<h4 id="_8">Пререквизиты</h4>
+<p><strong>Ссылка на курс:</strong> <a href="https://kap2fox.github.io/kusama.practice/en/learn/kusama-theory-practice/overview/">Kusama — From Theory to Practice Course</a></p>
+<p><strong>Трудозатраты:</strong>  Трудозатраты 16 часов (Практические занятия)</p>
+<h4 id="_9">Метод оценивания</h4>
+<p>Вам необходимо прочитать все лекции и выполнить все практики. После окончания всех заданий вам необходимо запросить IPFS сертификат о прохождении курса. Результаты работы необходимо выложить в таблицу. Получение IPFS сертификата предполагает что курс выполнен на 100%, курс без получения IPFS сертификата не считается пройденым.</p>
+<h4 id="_10">Сроки выполнения</h4>
+<p>У вас не больше 4-ух недель от окончания предыдущего задания для выполнения данного задания. </p>
+<h3 id="edex-kubernetes">Онлайн лекционный курс на eDEX по Kubernetes</h3>
+<p><img alt="edex" src="../media/edex.png" /></p>
+<h4 id="_11">Описание</h4>
+<p>Онлайн <strong>лекционный курс</strong> на eDEX по Kubernetes <strong>является справочным, платить за курс не надо</strong>, также дополнительно будут проводится лекции на русском языке уточняющие и расширяющие некоторые моменты из этого курса. Помимо этого будет 4 лабораторных работы по теме онлайн и офлайн лекций для проверки ваших знаний.</p>
+<h4 id="_12">Пререквизиты</h4>
+<p><strong>Ссылка на курс:</strong> <a href="https://www.edx.org/course/introduction-to-kubernetes">Introduction to kubernetes</a></p>
+<p><strong>Трудозатраты:</strong> Трудозатраты +- 20 часов (Практические занятия)</p>
+<h4 id="_13">Метод оценивания</h4>
+<p>Вам необходимо прочитать/прослушать все лекции и выполнить все лабораторные работы. Результаты работы необходимо выложить в таблицу. Формат защиты лабораторных работ будет сообщен дополнительно.
+Оценка может варьироваться от 0 до 100%.</p>
+<h4 id="_14">Сроки выполнения</h4>
+<p>У вас не больше 6-и недель от окончания предыдущего задания для выполнения данного задания. </p>
+<h3 id="medium-habr">Написание технической статьи на Medium или Habr</h3>
+<h4 id="_15">Описание</h4>
+<p>Самое интересное задание из всех представленных, вам необходимо будет разработать и разместить техническую статью на Medium или Habr по любой из заинтересовавших вас тем которые будут рассмотрены на курсе с личного аккаунта.</p>
+<p><strong>Все авторы статьи должны быть указанны в ней на момент публикации.</strong></p>
+<h4 id="_16">Пререквизиты</h4>
+<p><strong>Трудозатраты:</strong> Трудозатраты +- 6 часов (Самостоятельная работа)</p>
+<p>Глубину статьи вы оцениваете самостоятельно, но к самой статье есть несколько требований:</p>
+<ol>
+<li>НИКАКОЙ РЕКЛАМЫ ТОКЕНОВ/ТЕХНОЛОГИЙ</li>
+<li>В случае если вы делаете обзор технологии/токена, вам необходимо привнести свою аналитику данной технологии/токена с технической/математической точки зрения.</li>
+<li>Постарайтесь красиво/качественно оформить свою статью, чтобы ее было приятно читать как вам, так и случайным посетителям ресурса на который вы выкладываете свою статью.</li>
+<li>Требование для статьи на Medium - Объем статьи на одного человека не менее 6 минут на прочтение, Medium сам это оценивает.</li>
+<li>Требование для статьи на Habr - необходимо чтобы плюсов было больше чем минусов.</li>
+</ol>
+<p><strong>Ссылки на полезные материалы для подбора тем:</strong>  <br />
+- <a href="https://ds.cs.luc.edu/issues/issues.html">Introduction and Issues in distributed system</a>  <br />
+- <a href="https://www.researchgate.net/publication/322814035_Open_Issues_and_Security_Challenges_of_Data_Communication_Channels_in_Distributed_Internet_of_Things_IoT_A_Survey">Open Issues and Security Challenges of Data Communication Channels in Distributed Internet of Things (IoT): A Survey</a> <br />
+- <a href="https://www.cybok.org/media/downloads/Distributed_Systems_Security_issue_1.0.pdf">Distributed Systems Security Knowledge Area</a> <br />
+- <a href="https://research.google/research-areas/distributed-systems-and-parallel-computing/">Google research for Distributed Systems and Parallel Computing</a> <br />
+- <a href="https://phdprojects.org/phd-research-topic-parallel-distributed-systems/">PhD research topic in parallel and distributed systems</a> <br />
+- <a href="https://research.web3.foundation/en/latest/index.html">Research at Web3 Foundation</a> <br />
+- <a href="https://notes.ethereum.org/@ethsg/rkxpeG0ff?type=view">Ethereum research backlog</a> <br />
+- <a href="https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/student_case/itmo2022_2023/itmo2022_2023/">Материалы прошлых лет</a></p>
+<h4 id="_17">Метод оценивания</h4>
+<p>В ходе оценки статьи будут оцениваться следующие параметры:</p>
+<ul>
+<li>Техническое содержание и новизна идеи</li>
+<li>Объем статьи и количество  использованных интересных источников/материалов</li>
+<li>Оценки от комментаторов статьи, результаты конструктивной критики.</li>
+</ul>
+<p><strong>Оценка может варьироваться от 0 до 100%.</strong></p>
+<h4 id="_18">Сроки выполнения</h4>
+<p>Вам необходимо приложить ссылку на статью не позднее чем за две недели до окончания учебной дисциплины. </p>
+<hr />
+<h2 id="course-descriptions">Course Descriptions</h2>
+<h3 id="crypto-from-theory-to-practice">Crypto: From Theory to Practice</h3>
+<p><img alt="crypto" src="../media/crypto.png" /></p>
+<h4 id="description">Description</h4>
+<p>The course "Crypto: From Theory to Practice" will immerse you in the history of blockchain, explain what cryptocurrencies are, how mining works, and much more. It's an interesting course with a practical focus that allows you to familiarize yourself with the basics of cryptocurrencies, create your own crypto wallet, and more.</p>
+<h4 id="prerequisites">Prerequisites</h4>
+<p><strong>Course Link:</strong> <a href="https://m.online.itmo.ru">https://m.online.itmo.ru</a></p>
+<p><strong>Workload:</strong> Approximately 16 hours (Practical sessions)</p>
+<h4 id="assessment-method">Assessment Method</h4>
+<p>You need to read/listen to all lectures and complete all practical exercises and the final assignment. The results of your work must be uploaded to a table. Your grade will be based on the percentage of completed assignments and lectures. 
+<strong>Grades may vary from 0 to 100%.</strong></p>
+<h4 id="deadline">Deadline</h4>
+<p>You have no more than 4 weeks from the start of the course to complete this task.</p>
+<h3 id="kusama-from-theory-to-practice_1">Kusama - From Theory to Practice</h3>
+<p><img alt="kusama" src="../media/kusama.png" /></p>
+<h4 id="description_1">Description</h4>
+<p>The course "Kusama - From Theory to Practice" will introduce you to the Kusama and robonomics.network blockchain networks created by ITMO University graduates. It will explain the use of distributed ledger technology in managing and storing data from IoT devices, robots, and more. In addition, the course has a continuation on working with Boston Dynamics' Spot robot in real-time.</p>
+<h4 id="prerequisites_1">Prerequisites</h4>
+<p><strong>Course Link:</strong> <a href="https://kap2fox.github.io/kusama.practice/en/learn/kusama-theory-practice/overview/">Kusama — From Theory to Practice Course</a></p>
+<p><strong>Workload:</strong> Approximately 16 hours (Practical sessions)</p>
+<h4 id="assessment-method_1">Assessment Method</h4>
+<p>You need to read all lectures and complete all practical exercises. After completing all tasks, you need to request an IPFS certificate of course completion. The course is considered complete only if you receive the IPFS certificate.</p>
+<h4 id="deadline_1">Deadline</h4>
+<p>You have no more than 4 weeks from the completion of the previous task to complete this assignment.</p>
+<h3 id="online-lecture-course-on-kubernetes-via-edx">Online Lecture Course on Kubernetes via edX</h3>
+<p><img alt="edex" src="../media/edex.png" /></p>
+<h4 id="description_2">Description</h4>
+<p>The online lecture course on Kubernetes via edX is a reference course, and there is no need to pay for it. Additionally, there will be lectures in Russian that will clarify and expand on some aspects of this course. There will be four laboratory assignments related to the online and offline lectures to test your knowledge.</p>
+<h4 id="prerequisites_2">Prerequisites</h4>
+<p><strong>Course Link:</strong> <a href="https://www.edx.org/course/introduction-to-kubernetes">Introduction to kubernetes</a></p>
+<p><strong>Workload:</strong> Approximately 20 hours (Practical sessions)</p>
+<h4 id="assessment-method_2">Assessment Method</h4>
+<p>You need to read/listen to all lectures and complete all laboratory assignments. The results of your work must be uploaded to a table. The format of the laboratory work defense will be provided separately. 
+Grades may vary from 0 to 100%.</p>
+<h4 id="deadline_2">Deadline</h4>
+<p>You have no more than 6 weeks from the completion of the previous task to complete this assignment.</p>
+<h3 id="writing-a-technical-article-on-medium-or-habr">Writing a Technical Article on Medium or Habr</h3>
+<h4 id="description_3">Description</h4>
+<p>This is the most interesting assignment of all. You will need to develop and publish a technical article on Medium or Habr on any of the topics that interest you from the course.</p>
+<p><strong>All authors of the article must be mentioned in it at the time of publication.</strong></p>
+<h4 id="prerequisites_3">Prerequisites</h4>
+<p><strong>Workload:</strong> Approximately 6 hours (Self-study)</p>
+<p>You evaluate the depth of the article on your own, but there are several requirements for the article:</p>
+<ol>
+<li>NO TOKEN/TECHNOLOGY ADVERTISING</li>
+<li>If you are reviewing a technology/token, you need to provide your analysis of this technology/token from a technical/mathematical point of view.</li>
+<li>Try to format your article beautifully and professionally so that it is enjoyable to read for both you and random visitors to the resource where you publish your article.</li>
+<li>Medium Article Requirement: The article should take at least 6 minutes to read per person, as assessed by Medium itself.</li>
+<li>Habr Article Requirement: It should have more pros than cons.</li>
+</ol>
+<p><strong>Useful Materials for Topic Selection:</strong>  <br />
+- <a href="https://ds.cs.luc.edu/issues/issues.html">Introduction and Issues in distributed system</a>  <br />
+- <a href="https://www.researchgate.net/publication/322814035_Open_Issues_and_Security_Challenges_of_Data_Communication_Channels_in_Distributed_Internet_of_Things_IoT_A_Survey">Open Issues and Security Challenges of Data Communication Channels in Distributed Internet of Things (IoT): A Survey</a> <br />
+- <a href="https://www.cybok.org/media/downloads/Distributed_Systems_Security_issue_1.0.pdf">Distributed Systems Security Knowledge Area</a> <br />
+- <a href="https://research.google/research-areas/distributed-systems-and-parallel-computing/">Google research for Distributed Systems and Parallel Computing</a> <br />
+- <a href="https://phdprojects.org/phd-research-topic-parallel-distributed-systems/">PhD research topic in parallel and distributed systems</a> <br />
+- <a href="https://research.web3.foundation/en/latest/index.html">Research at Web3 Foundation</a> <br />
+- <a href="https://notes.ethereum.org/@ethsg/rkxpeG0ff?type=view">Ethereum research backlog</a> <br />
+- <a href="https://itmo-ict-faculty.github.io/introduction-to-distributed-technologies/student_case/itmo2022_2023/itmo2022_2023/">Materials from Previous Years</a></p>
+<h4 id="assessment-method_3">Assessment Method</h4>
+<p>The following parameters will be evaluated during the assessment of the article:</p>
+<ul>
+<li>Technical content and novelty of ideas</li>
+<li>Article volume and the number of interesting sources/materials used</li>
+<li>Ratings from article commentators and constructive criticism results.</li>
+</ul>
+<p><strong>Grades may vary from 0 to 100%</strong></p>
+<h4 id="deadline_3">Deadline</h4>
+<p>You must provide a link to the article no later than two weeks before the end of the course.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "toc.follow", "navigation.top"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.81fa17fe.min.js"></script>
+      
+    
+  </body>
+</html>
